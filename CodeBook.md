@@ -14,10 +14,10 @@ experiment participant(id):there are total of 30 participants with unique ids.<b
 ###features
 All the following feature names are extracted from "features.txt" that in the original "UCI HAR Dataset" folder<br /> 
 Details about those virables can be found in "features_info.txt" in "UCI HAR Dataset" folder<br />
-|column id|Feature Name|
-|--:|:----------------------|
-|3|tBodyAcc-mean()-X|
-|4|tBodyAcc-mean()-Y|
+|Column id|Feature Name|
+|--------:|:----------------------|
+|3| BodyAcc-mean()-X|
+|4| tBodyAcc-mean()-Y|
 |5| tBodyAcc-mean()-Z |
 |6| tBodyAcc-std()-X |
 |7| tBodyAcc-std()-Y |
