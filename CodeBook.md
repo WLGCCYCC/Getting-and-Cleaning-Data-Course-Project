@@ -14,72 +14,72 @@ experiment participant(id):there are total of 30 participants with unique ids.<b
 ###features
 |Column id|Feature Name|
 |---------:|:------------------------|
-|3| BodyAcc-mean()-X|
-|4| timeimeBodyAcc-mean()-Y|
-|5| timeBodyAcc-mean()-Z |
-|6| timeBodyAcc-stimed()-X |
-|7| timeBodyAcc-stimed()-Y |
-|8| timeBodyAcc-stimed()-Z |
-|9| timeGravitimeyAcc-mean()-X |
-|10| timeGravitimeyAcc-mean()-Y |
-|11| timeGravitimeyAcc-mean()-Z |
-|12| timeGravitimeyAcc-stimed()-X |
-|13| timeGravitimeyAcc-stimed()-Y |
-|14| timeGravitimeyAcc-stimed()-Z |
-|15| timeBodyAccJerk-mean()-X |
-|16| timeBodyAccJerk-mean()-Y |
-|17| timeBodyAccJerk-mean()-Z |
-|18| timeBodyAccJerk-stimed()-X |
-|19| timeBodyAccJerk-stimed()-Y |
-|20| timeBodyAccJerk-stimed()-Z |
-|21| timeBodyGyro-mean()-X |
-|22| timeBodyGyro-mean()-Y |
-|23| timeBodyGyro-mean()-Z |
-|24| timeBodyGyro-stimed()-X |
-|25| timeBodyGyro-stimed()-Y |
-|26| timeBodyGyro-stimed()-Z |
-|27| timeBodyGyroJerk-mean()-X |
-|28| timeBodyGyroJerk-mean()-Y |
-|29| timeBodyGyroJerk-mean()-Z |
-|30| timeBodyGyroJerk-stimed()-X |
-|31| timeBodyGyroJerk-stimed()-Y |
-|32| timeBodyGyroJerk-stimed()-Z |
-|33| timeBodyAccMag-mean() |
-|34| timeBodyAccMag-stimed() |
-|35| timeGravitimeyAccMag-mean() |
-|36| timeGravitimeyAccMag-stimed() |
-|37| timeBodyAccJerkMag-mean() |
-|38| timeBodyAccJerkMag-stimed() |
-|39| timeBodyGyroMag-mean() |
-|40| timeBodyGyroMag-stimed() |
-|41| timeBodyGyroJerkMag-mean() |
-|42| timeBodyGyroJerkMag-stimed() |
-|43| frecuencyBodyAcc-mean()-X |
-|44| frecuencyBodyAcc-mean()-Y |
-|45| frecuencyBodyAcc-mean()-Z |
-|46| frecuencyBodyAcc-stimed()-X |
-|47| frecuencyBodyAcc-stimed()-Y |
-|48| frecuencyBodyAcc-stimed()-Z |
-|49| frecuencyBodyAccJerk-mean()-X |
-|50| frecuencyBodyAccJerk-mean()-Y |
-|51| frecuencyBodyAccJerk-mean()-Z |
-|52| frecuencyBodyAccJerk-stimed()-X |
-|53| frecuencyBodyAccJerk-stimed()-Y |
-|54| frecuencyBodyAccJerk-stimed()-Z |
-|55| frecuencyBodyGyro-mean()-X |
-|56| frecuencyBodyGyro-mean()-Y |
-|57| frecuencyBodyGyro-mean()-Z |
-|58| frecuencyBodyGyro-stimed()-X |
-|59| frecuencyBodyGyro-stimed()-Y |
-|60| frecuencyBodyGyro-stimed()-Z |
-|61| frecuencyBodyAccMag-mean() |
-|62| frecuencyBodyAccMag-stimed() |
-|63| frecuencyBodyBodyAccJerkMag-mean() |
-|64| frecuencyBodyBodyAccJerkMag-stimed() |
-|65| frecuencyBodyBodyGyroMag-mean() |
-|66| frecuencyBodyBodyGyroMag-stimed() |
-|67| frecuencyBodyBodyGyroJerkMag-mean() |
-|68| frecuencyBodyBodyGyroJerkMag-stimed() |
+|   1| timeBodyAcc-mean()-X |
+|   2| timeBodyAcc-mean()-Y |
+|3| timeBodyAcc-mean()-Z |
+|   4| timeBodyAcc-std()-X |
+	|   5| timeBodyAcc-std()-Y |
+	|   6| timeBodyAcc-std()-Z |
+	|  41| timeGravityAcc-mean()-X |
+	|  42| timeGravityAcc-mean()-Y |
+	|  43| timeGravityAcc-mean()-Z |
+	|  44| timeGravityAcc-std()-X |
+	|  45| timeGravityAcc-std()-Y |
+	|  46| timeGravityAcc-std()-Z |
+	|  81| timeBodyAccJerk-mean()-X |
+	|  82| timeBodyAccJerk-mean()-Y |
+	|  83| timeBodyAccJerk-mean()-Z |
+	|  84| timeBodyAccJerk-std()-X |
+	|  85| timeBodyAccJerk-std()-Y |
+	|  86| timeBodyAccJerk-std()-Z |
+	| 121| timeBodyGyro-mean()-X |
+	| 122| timeBodyGyro-mean()-Y |
+	| 123| timeBodyGyro-mean()-Z |
+	| 124| timeBodyGyro-std()-X |
+	| 125| timeBodyGyro-std()-Y |
+	| 126| timeBodyGyro-std()-Z |
+	| 161| timeBodyGyroJerk-mean()-X |
+	| 162| timeBodyGyroJerk-mean()-Y |
+	| 163| timeBodyGyroJerk-mean()-Z |
+	| 164| timeBodyGyroJerk-std()-X |
+	| 165| timeBodyGyroJerk-std()-Y |
+	| 166| timeBodyGyroJerk-std()-Z |
+	| 201| timeBodyAccMag-mean() |
+	| 202| timeBodyAccMag-std() |
+	| 214| timeGravityAccMag-mean() |
+	| 215| timeGravityAccMag-std() |
+	| 227| timeBodyAccJerkMag-mean() |
+	| 228| timeBodyAccJerkMag-std() |
+	| 240| timeBodyGyroMag-mean() |
+	| 241| timeBodyGyroMag-std() |
+	| 253| timeBodyGyroJerkMag-mean() |
+	| 254| timeBodyGyroJerkMag-std() |
+	| 266| frecuencyBodyAcc-mean()-X |
+	| 267| frecuencyBodyAcc-mean()-Y |
+	| 268| frecuencyBodyAcc-mean()-Z |
+	| 269| frecuencyBodyAcc-std()-X |
+	| 270| frecuencyBodyAcc-std()-Y |
+	| 271| frecuencyBodyAcc-std()-Z |
+	| 345| frecuencyBodyAccJerk-mean()-X |
+	| 346| frecuencyBodyAccJerk-mean()-Y |
+	| 347| frecuencyBodyAccJerk-mean()-Z |
+	| 348| frecuencyBodyAccJerk-std()-X |
+	| 349| frecuencyBodyAccJerk-std()-Y |
+	| 350| frecuencyBodyAccJerk-std()-Z |
+	| 424| frecuencyBodyGyro-mean()-X |
+	| 425| frecuencyBodyGyro-mean()-Y |
+	| 426| frecuencyBodyGyro-mean()-Z |
+	| 427| frecuencyBodyGyro-std()-X |
+	| 428| frecuencyBodyGyro-std()-Y |
+	| 429| frecuencyBodyGyro-std()-Z |
+	| 503| frecuencyBodyAccMag-mean() |
+	| 504| frecuencyBodyAccMag-std() |
+	| 516| frecuencyBodyBodyAccJerkMag-mean() |
+	| 517| frecuencyBodyBodyAccJerkMag-std() |
+	| 529| frecuencyBodyBodyGyroMag-mean() |
+	| 530| frecuencyBodyBodyGyroMag-std() |
+	| 542| frecuencyBodyBodyGyroJerkMag-mean() |
+	| 543| frecuencyBodyBodyGyroJerkMag-std() |
 All the above feature names are extracted from "features.txt" that in the original "UCI HAR Dataset" folder<br /> 
 Details about those features can be found in "features_info.txt" in "UCI HAR Dataset" folder<br />
 ###brief description of the R script
