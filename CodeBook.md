@@ -97,4 +97,4 @@ Details about those features can be found in "features_info.txt" in "UCI HAR Dat
 12.Use a nested for loop to calculate the means of the wanted features of each combination.<br />
 13.Column-wisely bind the subject, activity, and all the means into one data frame.<br />
 14.Save the result from step 13 to the variable named summeryTable.<br />
-15.Output ¡°summeryTable" to the folder "UCI HAR Dataset" with the name "tidy_dataset".<br />
+15.Output "summeryTable" to the folder "UCI HAR Dataset" with the name "tidy_dataset".<br />
