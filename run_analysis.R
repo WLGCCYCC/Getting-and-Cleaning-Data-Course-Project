@@ -78,6 +78,15 @@ levels(meanStdDataset[,2])<-activities
 
 names(meanStdDataset)[2]<-"activity"
 
+index<-grep("^t",names(meanStdDataset))
+temp<-names(meanStdDataset[index])
+temp<-gsub("t","time",temp)
+names(meanStdDataset)[index]<-temp
+
+index<-grep("^f",names(meanStdDataset))
+temp<-names(meanStdDataset)[index]
+temp<-gsub("f","frecuency",temp)
+names(meanStdDataset)[index]<-temp
 ##5.From the data set in step 4, creates a second, independent tidy data set
 ##with the average of each variable for each activity and each subject.
 
