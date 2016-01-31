@@ -12,8 +12,6 @@ experiment participant(id):there are total of 30 participants with unique ids.<b
 |05|STANDING          | 
 |06|LAYING            |
 ###features
-All the following feature names are extracted from "features.txt" that in the original "UCI HAR Dataset" folder<br /> 
-Details about those virables can be found in "features_info.txt" in "UCI HAR Dataset" folder<br />
 |Column id|Feature Name|
 |---------:|:------------------------|
 |3| BodyAcc-mean()-X|
@@ -82,6 +80,8 @@ Details about those virables can be found in "features_info.txt" in "UCI HAR Dat
 |66| fBodyBodyGyroMag-std() |
 |67| fBodyBodyGyroJerkMag-mean() |
 |68| fBodyBodyGyroJerkMag-std() |
+All the following feature names are extracted from "features.txt" that in the original "UCI HAR Dataset" folder<br /> 
+Details about those virables can be found in "features_info.txt" in "UCI HAR Dataset" folder<br />
 ###brief description of the R script
 1.Read in "subject_train.txt","y_train.txt", and "X_train.txt".<br />
 2.Creat a data frame that binds the above tables in the order of subject,y(activity), and x(features).<br />
