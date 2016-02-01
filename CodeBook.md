@@ -87,7 +87,7 @@ Details about those features can be found in "features_info.txt" in "UCI HAR Dat
 2.Creat a data frame that binds the above tables in the order of subject,y(activity), and x(features).<br />
 3.Read in "subject_test.txt","y_test.txt", and "X_test.txt".<br />
 4.Creat a data frame that binds the above tables in the order of subject,y(activity), and x(features).<br />
-5.Row-wisely bind the data frame from step 4 and the data frame  from step 3. Save the result to a variable named "dataset".<br />
+5.Row-wisely bind the data frame from step 4 and the data frame  from step 2. Save the result to a variable named "dataset".<br />
 6.Read in ¡°features.txt¡± and search the key worlds "mean()" and "std()".<br />
 7.Extract all the wanted features and extract "subject" column, "activity" column, and the corresponding feature columns from "dataset".<br />
 8.Save the result from step 7 to a varibale named "meanStdDataset".<br />
